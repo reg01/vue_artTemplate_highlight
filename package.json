@@ -1,13 +1,13 @@
 {
-    "name": "at-helper",
-    "displayName": "Art Template Helper",
-    "description": "Art template support for Visual Studio Code",
-    "version": "0.0.4",
-    "publisher": "ZihanLi",
+    "name": "at-helper-vue",
+    "displayName": "Art Template Helper for Vue",
+    "description": "Art template for Vue.js, support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "reg01",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SFmonkey/ArtLighter"
+        "url": "https://github.com/reg01/vue_artTemplate_highlight"
     },
     "engines": {
         "vscode": "^1.0.0"
