@@ -1,0 +1,31 @@
+{
+    "name": "at-helper",
+    "displayName": "Art Template Helper",
+    "description": "Art template support for Visual Studio Code",
+    "version": "0.0.4",
+    "publisher": "ZihanLi",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SFmonkey/ArtLighter"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "arttemplate",
+            "aliases": ["art"],
+            "extensions": [".art"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "arttemplate",
+            "scopeName": "text.html.art",
+            "path": "./syntaxes/art_HTML.tmLanguage.json"
+        }]
+    }
+}
